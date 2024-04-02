@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-
-const preventDefault = (event) => event.preventDefault();
 
 export default function Navigation() {
   return (
@@ -17,28 +15,20 @@ export default function Navigation() {
           ml: 2,
         },
       }}
-      onClick={preventDefault}
     >
-      <Link href="#" color="inherit" underline="always">
-        {'color="inherit"'} 
+      <Link to="/" style={{ color: "gold", textDecoration: 'underline' }}>
         {/* color="primary", color="body2", variant="inherit" */}
-        <About />
+        About
       </Link>
-      <Link href="#" color="inherit" underline="always">
-        {'color="inherit"'} 
-        {/* color="primary", color="body2", variant="inherit" */}
+      {/* <Link href="/portfolio" color="gold" underline="always">
         <Portfolio />
-      </Link>
-      <Link href="#" color="inherit" underline="always">
-        {'color="inherit"'} 
-        {/* color="primary", color="body2", variant="inherit" */}
+      </Link> */}
+      {/* <Link href="/contact" color="gold" underline="always">
         <Contact />
-      </Link>
-      <Link href="#" color="inherit" underline="always">
-        {'color="inherit"'} 
-        {/* color="primary", color="body2", variant="inherit" */}
+      </Link> */}
+      {/* <Link href="/resume" color="gold" underline="always">
         <Resume />
-      </Link>
+      </Link> */}
     </Box>
   );
 }
