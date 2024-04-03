@@ -25,10 +25,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  /* place-items: center; */
   width: 100%;
   min-height: 100vh;
+  background-color: #052725;
+  color: #c8fffc;
 }
 
 h1 {

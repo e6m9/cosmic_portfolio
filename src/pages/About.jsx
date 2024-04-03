@@ -9,7 +9,7 @@ export default function About() {
       <Box
         sx={{
           display: 'flex',
-          flexDirection: 'column',
+          flexDirection: 'row',
           justifyContent: 'center',
           width: '100%',
           alignItems: 'center',
@@ -21,18 +21,18 @@ export default function About() {
           height: '100%',
           width: '50%',
           marginTop: '8px',
-          // marginBottom: '8px',
+          marginBottom: '8px',
         }}
         />
         <Paper square={false}
           variant="outlined"
           sx={{
-            padding: 2,
+            padding: .66,
             backgroundColor: 'rgb(34, 61, 85)',
           }}>
           <Typography variant="h3" component="p"
             sx={{
-              fontSize: { xs: '.5rem', sm: '.75rem', md: '1rem', lg: '1.5rem' },
+              fontSize: { xs: '.5rem', sm: '.75rem', md: '1rem', lg: '1.33rem' },
               color: 'white',
             }}
           >

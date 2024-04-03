@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import React from 'react';
 import Navigation from './Navigation';
 import { Card, CardContent, Typography } from '@mui/material';
@@ -9,13 +8,12 @@ export default function Header() {
     <Card
       sx={{
         width: '100%',
-        height: 'flex 25vh',
+        height: 'flex',
         backgroundColor: 'teal',
         color: 'white',
         display: 'flex',
         justifyContent: 'flex-start',
         boxShadow: 3,
-        // marginBottom: '1rem',
       }}
     >
       <CardContent
