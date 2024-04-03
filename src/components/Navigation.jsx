@@ -1,9 +1,9 @@
-import { useState } from 'react'
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Box from '@mui/material/Box';
 
 export default function Navigation() {
+
   return (
     <Box
       sx={{
@@ -14,22 +14,33 @@ export default function Navigation() {
         '& > :not(style) ~ :not(style)': {
           ml: 2,
         },
+        '& a': {
         fontWeight: 'bold',
         fontSize: { xs: '1rem', sm: '1.5rem', md: '2rem', lg: '2.5rem' },
+        color: 'inherit',
+        textDecoration: 'none'
+        },
+        '& :hover': {
+          color: 'gold'
+        },
+        '& .active': {
+          color: 'yellow',
+          textShadow: '0 0 4px rgba(255, 215, 0, 0.7)',
+        },
       }}
     >
-      <Link to="/">
-        About
-      </Link>
-      <Link to="/portfolio">
+      <NavLink to="/" exact activeClassName="active">
+        About me
+      </NavLink>
+      <NavLink to="/portfolio" activeClassName="active">
         Portfolio
-      </Link>
-      <Link to="/contact">
+      </NavLink>
+      <NavLink to="/contact" activeClassName="active">
         Contact
-      </Link>
-      <Link to="/resume">
+      </NavLink>
+      <NavLink to="/resume" activeClassName="active">
         Resume 
-      </Link>
+      </NavLink>
     </Box>
   );
 }

@@ -9,25 +9,24 @@ import Footer from './components/Footer';
 // import Home from './pages/Home'
 
 import About from './pages/About';
-// import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-// import Resume from './pages/Resume';
+import Resume from './pages/Resume';
 
 // import Project from './pages/Project';
 
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Header />
       <main>
         <Routes>
           <Route path="/" element={<About />} />
-          {/* <Route path="/portfolio" element={<Portfolio />} /> */}
-          {/* <Route path="/project/:projectId" element={<Project />} /> */}
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/resume" element={<Resume />} />/ */}
+          <Route path="/resume" element={<Resume />} />/
         </Routes>
       </main>
       <Footer />
@@ -35,4 +34,3 @@ function App() {
   );
 }
 
-export default App;

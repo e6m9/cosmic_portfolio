@@ -40,7 +40,7 @@ export default function Header() {
             textAlign: 'left',
           }}
         >
-          Cosmic Cry
+          Ashley Maximillian
         </Typography>
         <Navigation />
       </CardContent>

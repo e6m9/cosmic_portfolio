@@ -8,6 +8,7 @@ export default function About() {
     <div>
       <Box
         sx={{
+          border: '2px solid lightblue',
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'center',
@@ -36,7 +37,7 @@ export default function About() {
               color: 'white',
             }}
           >
-            Cosmic Cry Productions encapsulates the creative output of self-taught artist, Ashley Maximillian, aka e6m9. She is focused on a wide range of mediums from acrylic to resin, noisy instruments to wire wrapped crystals, plant proliferation and junk innovation, and even coding.
+            Ashley Maximillian, aka e6m9, is a self-taught artist. She is focused on a wide range of mediums from acrylic to resin, noisy instruments to wire wrapped crystals, plant proliferation and junk innovation, and even coding.
             <br /><br />
             A through line of wild chaos magic and fearlessly pushing boundaries brings it all together, representing Ashley’s drive to channel her desire for growth and transformation into something that can be experienced.
             <br /><br />
