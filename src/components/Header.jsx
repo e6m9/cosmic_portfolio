@@ -8,12 +8,13 @@ export default function Header() {
   return (
     <Card
       sx={{
-        width: '100vw',
+        width: '100%',
         height: 'flex 25vh',
         backgroundColor: 'teal',
         color: 'white',
         display: 'flex',
         justifyContent: 'flex-start',
+        boxShadow: 3,
         // marginBottom: '1rem',
       }}
     >
@@ -25,7 +26,6 @@ export default function Header() {
           '&:last-child': {
             paddingBottom: 0,
           },
-          px: 2,
         }}
       >
         <Typography variant="h4" component={Link}
