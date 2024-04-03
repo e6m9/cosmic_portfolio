@@ -9,26 +9,27 @@ export default function Navigation() {
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
-        justifyContent: 'center',
+        justifyContent: 'right',
         typography: 'body1',
         '& > :not(style) ~ :not(style)': {
           ml: 2,
         },
+        fontWeight: 'bold',
+        fontSize: { xs: '1rem', sm: '1.5rem', md: '2rem', lg: '2.5rem' },
       }}
     >
-      <Link to="/" style={{ color: "gold", textDecoration: 'underline' }}>
-        {/* color="primary", color="body2", variant="inherit" */}
+      <Link to="/">
         About
       </Link>
-      {/* <Link href="/portfolio" color="gold" underline="always">
-        <Portfolio />
-      </Link> */}
-      {/* <Link href="/contact" color="gold" underline="always">
-        <Contact />
-      </Link> */}
-      {/* <Link href="/resume" color="gold" underline="always">
-        <Resume />
-      </Link> */}
+      <Link to="/portfolio">
+        Portfolio
+      </Link>
+      <Link to="/contact">
+        Contact
+      </Link>
+      <Link to="/resume">
+        Resume 
+      </Link>
     </Box>
   );
 }

@@ -1,33 +1,50 @@
 import { useState } from 'react';
 import React from 'react';
 import Navigation from './Navigation';
-// import { makeStyles } from '@mui/styles';
 import { Card, CardContent, Typography } from '@mui/material';
-
-// const useStyles = makeStyles({
-//     root: {
-//       minWidth: 275,
-//       marginBottom: 12,
-//     },
-//     title: {
-//       fontSize: 14,
-//     },
-//   });
+import { Link } from 'react-router-dom';
 
 export default function Header() {
-  // const classes = useStyles();
   return (
     <Card
       sx={{
-        minwidth: 275,
-        marginBottom: 2,
+        width: '100vw',
+        height: 'flex 25vh',
+        backgroundColor: 'teal',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        // marginBottom: '1rem',
       }}
     >
-      <CardContent>
-        <Typography variant="h5" component="h2" sx={{ fontSize: 14 }}>
-          <Navigation />
+      <CardContent
+        sx={{
+          flexGrow: 1, px: 2,
+          alignItems: 'center',
+          justifyContent: 'flex-start',
+          '&:last-child': {
+            paddingBottom: 0,
+          },
+          px: 2,
+        }}
+      >
+        <Typography variant="h4" component={Link}
+          to='/'
+          sx={{
+            fontWeight: 'bold',
+            fontSize: { xs: '2rem', sm: '4rem', md: '6rem', lg: '8rem' },
+            color: 'white',
+            textDecoration: 'none',
+            '&:hover': {
+              color: 'white',
+              textDecoration: 'none',
+            },
+            textAlign: 'left',
+          }}
+        >
+          Cosmic Cry
         </Typography>
-        hello
+        <Navigation />
       </CardContent>
     </Card>
   )

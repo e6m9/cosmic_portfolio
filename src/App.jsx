@@ -15,6 +15,8 @@ import About from './pages/About';
 
 // import Project from './pages/Project';
 
+import './App.css';
+
 function App() {
   return (
     <div>
