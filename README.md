@@ -1,147 +1,48 @@
-# cosmic_portfolio
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# cosmic portfolio
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="20" role="img" aria-label="license: MIT License"><title>license: MIT License</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="122" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="47" height="20" fill="#555"/><rect x="47" width="75" height="20" fill="#008080"/><rect width="122" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="245" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="370">license</text><text x="245" y="140" transform="scale(.1)" fill="#fff" textLength="370">license</text><text aria-hidden="true" x="835" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="650">MIT License</text><text x="835" y="140" transform="scale(.1)" fill="#fff" textLength="650">MIT License</text></g></svg>
 
-Currently, two official plugins are available:
+## Description
+a react portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Usage](#usage)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Further-Development](#further-development)
+- [Contact](#contact)
+- [Final-Thoughts](#final-thoughts)
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
+## Usage
+click the links to view each page
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
+- [deployed_application](https://hilarious-cocada-30cb68.netlify.app/)
 
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
+## License
+MIT License
+Use the following link to learn more about the license: (https://opensource.org/license/mit/)
 
-## User Story
+## Acknowledgements
+This application utilizes the following packages along with chatgpt as a debugging tool:
 
-```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-```
+- [react](https://www.npmjs.com/package/react)
+- [vite](https://www.npmjs.com/package/vite)
+- [material_ui](https://mui.com/material-ui/)
+- [eslint](https://www.npmjs.com/package/eslint)
 
-## Acceptance Criteria
+## Further Development
+In the future, I'd like to incorporate the following changes:
 
-```md
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN the browser URL changes and I am presented with the corresponding section below the navigation and that title is highlighted
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+- [] keep up-to-date with new projects 
+- [] add functionality to the contact page
+- [] add more of my personality to the page
+- [] add a greater variety of projects not limited to coding
+  
+## Contact
+Author:
+  [e6m9 on GitHub](https://github.com/e6m9)
 
+Please send any questions or concerns to:
+  alostsound@gmail.com
 
-
-```
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-## Getting Started
-
-You’ll use `vite` to build your portfolio, which will include the following:
-
-* A single `Header` component that appears on multiple pages
-
-* A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio
-
-* A single `Project` component that will be used multiple times in the Portfolio section
-
-* A single `Footer` component that appears on multiple pages
-
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
-
-### When you would like to scaffold a new `vite` application on your own, follow these steps
-
-1. In the command line, navigate to the desired parent folder and run `npm create vite@4.4.1`.
-
-    * 🔑 *Note*: This command will automatically create a sub-folder which will house your React application; you do not need to perform a `mkdir` command to create one manually.
-
-2. Enter the desired name of your new project folder.
-
-3. From the first list of options, select your framework; for our activities in class, we'll be using `React`.
-
-4. From the second list of options, select your variant; for our activities in class, we'll be using `JavaScript`.
-
-5. `cd` into your newly created project folder and run `npm install`.
-
-    * In later activities we'll add additional NPM packages to our `vite` apps such as 'bootstrap', 'dotenv', and 'axios'.
-
-6. Run `npm dev`/`npm run dev` and navigate to the prompted URL to see your app.
-
-### Further customization (Recommended)
-
-1. Navigate to your `package.json` and modify the `scripts` object so that it looks like this example:
-
-```json
-  "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-```
-
-* Note the addition of the `"start": "vite"` script.
-
-2. Navigate to the `vite.config.js` file and edit the export object so that it looks like this example:
-
-```js
-export default defineConfig({
-  plugins: [react()],
-  server: {
-    port: 3000,
-    open: true
-  }
-})
-```
-
-### Projects
-
-For each project that is featured in your portfolio, include the following:
-
-* An image of the deployed application (either a short animated GIF or screenshot)
-
-* The title of the project
-
-* A link to the deployed application
-
-* A link to the corresponding GitHub repository
-
-### Design
-
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
-
-* Use mobile-first design.
-
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
-
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
-
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
-
+## Final Thoughts
+This is a really fun project, working with material ui and react, being able to see the changes in real time makes it easy to implement design changes.

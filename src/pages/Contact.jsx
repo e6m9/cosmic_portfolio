@@ -21,7 +21,7 @@ export default function ContactForm() {
 
         if (name !== 'email') {
             setErrors({ ...errors, [name]: '' });
-        } else if (validateEmail(value)) { 
+        } else if (validateEmail(value)) {
             setErrors({ ...errors, email: '' });
         }
     };
@@ -57,10 +57,21 @@ export default function ContactForm() {
                 sx={{
                     height: '100%',
                     display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
                     justifyContent: 'center',
-                    p: 6
+                    p: 0
                 }}
             >
+                <Typography variant="body1" sx={{
+                    mt: 2,
+                    p: 4,
+                    fontSize: { xs: '.5rem', sm: '.75rem', md: '1rem', lg: '1.33rem' },
+                }}
+                >
+                    email: alostsound@gmail.com
+
+                </Typography>
                 <Box
                     component="form"
                     onSubmit={handleSubmit}
