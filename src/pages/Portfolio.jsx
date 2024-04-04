@@ -5,37 +5,37 @@ import { Grid, Card, CardActionArea, CardContent, CardMedia, Typography, Link } 
 const projects = [
     {
         title: "Ried&Rite",
-        imageUrl: "https://drive.google.com/file/d/1HD3gCj8prFDFri5-3CtDFyLSZebBGO01/view?usp=drive_link",
+        imageUrl: "https://drive.google.com/file/d/1HD3gCj8prFDFri5-3CtDFyLSZebBGO01",
         deployedUrl: "https://morning-eyrie-69746-22e0c570d180.herokuapp.com/",
         githubUrl: "https://github.com/e6m9/RiedandRite"
     },
     {
         title: "Note-Smith",
-        imageUrl: "https://drive.google.com/file/d/1zWthJZWEb5_ubcDyNLntsyiK8JXW8X6p/view?usp=drive_link",
+        imageUrl: "https://drive.google.com/file/d/1zWthJZWEb5_ubcDyNLntsyiK8JXW8X6p/",
         deployedUrl: "https://warm-depths-06907-3d967eb40a9a.herokuapp.com/",
         githubUrl: "https://github.com/e6m9/note-smith"
     },
     {
         title: "Illustrated Pages",
-        imageUrl: "https://drive.google.com/file/d/1imQAKXKNNQdrY9ieK0-9ErSIT3eF-rd_/view?usp=drive_link",
+        imageUrl: "https://drive.google.com/file/d/1imQAKXKNNQdrY9ieK0-9ErSIT3eF-rd_/",
         deployedUrl: "https://e6m9.github.io/illustrated-pages/",
         githubUrl: "https://github.com/e6m9/illustrated-pages"
     },
     {
         title: "ReadMe Genny",
-        imageUrl: "https://drive.google.com/file/d/1rUBDmnfaY-yTVpgRh18ezrwK9mp7BDjq/view?usp=drive_link",
+        imageUrl: "https://drive.google.com/file/d/1rUBDmnfaY-yTVpgRh18ezrwK9mp7BDjq/",
         deployedUrl: "",
         githubUrl: "https://github.com/e6m9/README_GENNY"
     },
     {
         title: "Socknet API",
-        imageUrl: "https://drive.google.com/file/d/1jpB1MMfe1ViFBASQ7UXOSEtcAhVRjZBq/view?usp=drive_link",
+        imageUrl: "https://drive.google.com/file/d/1jpB1MMfe1ViFBASQ7UXOSEtcAhVRjZBq/",
         deployedUrl: "",
         githubUrl: "https://github.com/e6m9/socknet_api"
     },
     {
         title: "Track-Employ",
-        imageUrl: "https://drive.google.com/file/d/1NJY_0G2JbXVHvTwgHbmo09gtv_f_7z0J/view?usp=drive_link",
+        imageUrl: "https://drive.google.com/file/d/1NJY_0G2JbXVHvTwgHbmo09gtv_f_7z0J/",
         deployedUrl: "",
         githubUrl: "https://github.com/e6m9/Track-Employ"
     },
