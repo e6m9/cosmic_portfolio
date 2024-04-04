@@ -1,41 +1,46 @@
 import React from 'react';
 import { Grid, Card, CardActionArea, CardContent, CardMedia, Typography, Link } from '@mui/material';
-
+import ried from '../assets/images/riednrite.png';
+import note from '../assets/images/notesmith.png';
+import illustrated from '../assets/images/illustratedpages.png';
+import readme from '../assets/images/readmegenny.png';
+import sock from '../assets/images/socknetapi.png';
+import track from '../assets/images/trackemploy.png';
 
 const projects = [
     {
         title: "Ried&Rite",
-        imageUrl: "https://drive.google.com/file/d/1HD3gCj8prFDFri5-3CtDFyLSZebBGO01",
+        imageUrl: ried,
         deployedUrl: "https://morning-eyrie-69746-22e0c570d180.herokuapp.com/",
         githubUrl: "https://github.com/e6m9/RiedandRite"
     },
     {
         title: "Note-Smith",
-        imageUrl: "https://drive.google.com/file/d/1zWthJZWEb5_ubcDyNLntsyiK8JXW8X6p/",
+        imageUrl: note,
         deployedUrl: "https://warm-depths-06907-3d967eb40a9a.herokuapp.com/",
         githubUrl: "https://github.com/e6m9/note-smith"
     },
     {
         title: "Illustrated Pages",
-        imageUrl: "https://drive.google.com/file/d/1imQAKXKNNQdrY9ieK0-9ErSIT3eF-rd_/",
+        imageUrl: illustrated,
         deployedUrl: "https://e6m9.github.io/illustrated-pages/",
         githubUrl: "https://github.com/e6m9/illustrated-pages"
     },
     {
         title: "ReadMe Genny",
-        imageUrl: "https://drive.google.com/file/d/1rUBDmnfaY-yTVpgRh18ezrwK9mp7BDjq/",
+        imageUrl: readme,
         deployedUrl: "",
         githubUrl: "https://github.com/e6m9/README_GENNY"
     },
     {
         title: "Socknet API",
-        imageUrl: "https://drive.google.com/file/d/1jpB1MMfe1ViFBASQ7UXOSEtcAhVRjZBq/",
+        imageUrl: sock,
         deployedUrl: "",
         githubUrl: "https://github.com/e6m9/socknet_api"
     },
     {
         title: "Track-Employ",
-        imageUrl: "https://drive.google.com/file/d/1NJY_0G2JbXVHvTwgHbmo09gtv_f_7z0J/",
+        imageUrl: track,
         deployedUrl: "",
         githubUrl: "https://github.com/e6m9/Track-Employ"
     },

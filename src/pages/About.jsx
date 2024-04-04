@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { Typography } from '@mui/material';
+import portrait from '../assets/images/portrait.jpeg';
 
 export default function About() {
   return (
@@ -18,7 +19,7 @@ export default function About() {
           margin: '16px auto 0',
         }}
       >
-        <img src="https://drive.google.com/file/d/1txkvyztYCSmXjY2OiKKGQuf3P3hPQvA3/" alt="portrait of Ashley Maximillian, she has long green and blue hair with an undercut on one side, purple makeup around her eyes, lined with a sharp cateye, and green lipstick showing off her smile. she is wearing a large green crystal around her neck" style={{
+        <img src={ portrait } alt="portrait of Ashley Maximillian, she has long green and blue hair with an undercut on one side, purple makeup around her eyes, lined with a sharp cateye, and green lipstick showing off her smile. she is wearing a large green crystal around her neck" style={{
           height: '100%',
           width: '50%',
           marginTop: '8px',
